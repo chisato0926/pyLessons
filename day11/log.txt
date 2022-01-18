@@ -1,0 +1,68 @@
+* 1dce3d6  (HEAD -> dev) 2022-01-18 chisato c7_1追加　ファイルに書き込み
+* f9a781d  (origin/master, master) 2022-01-17 chisato c6_11,c6_ex2,c6_ex3追加 リストと文字列による書き換え時のidentity値の変化
+* bb9fd0b  2022-01-14 chisato c6_8,c6_9追加 参照による副作用 関数に渡すと変数の内容を書き換えられてしまうが、防御的コピーで防ぐことができる
+* b76c624  2022-01-14 chisato c6_6追加 等価と等値（同一存在）
+* 2a3d44e  2022-01-14 chisato c6_5追加　pythonでのクラス
+* 0d45574  2022-01-14 chisato c6_col1追加
+* a304119  2022-01-14 chisato c6_3追加
+* a83171b  2022-01-13 chisato listlesson,list_ex1追加 2次元リストの作成方法と練習問題 作成方法は2重for文、演算子、内包表記の3パターン *演算子を使った際はシャローコピー(shallow copy)になるので、指定の要素を変更しても参照先が同じなので全て置き換わってしまう
+* 98e28de  2022-01-11 chisato c5_ex5追加
+* 01eacd3  2022-01-11 chisato c5_ex1,2,c5_ex4追加
+* 7e03d71  2022-01-11 chisato c5_33追加 global変数
+* 878f77c  2022-01-11 chisato c5_col1追加 引数にディクショナリを受け取る関数の作成
+* 4dccd41  2022-01-06 chisato c4_ex5追加
+* 5c0a83f  2022-01-06 chisato c4_ex4追加
+* 00a6130  2022-01-06 chisato c4_ex3追加
+* fa224ad  2022-01-06 chisato c4_ex2追加
+* edeb009  2022-01-06 chisato c4_11追加 continueでループを１回スキップすることができる isinstance(対象,型)で、対象がその型なのかを判定できる
+* 1164379  2022-01-06 chisato c4_10追加 breakを使うと直近のループを抜ける javaもjsも同じ
+* 7223597  2022-01-06 chisato c4_8追加 for文で決まった回数を繰り返すrange関数
+* a8f637d  2022-01-06 chisato c4_7追加 リストとfor文 javaの拡張for文と似ている for(int data:scores){}
+* c1d0e3d  2022-01-06 chisato c4_6追加 リストの全要素を繰り返し参照するwhile文
+* 483aa71  2022-01-06 chisato c4_5追加 while文とリスト
+* b4a0f38  2022-01-06 chisato c4_2追加 while文の基礎
+* 8ab7368  2022-01-06 chisato c3_col4追加 三項条件演算子
+* 40eed9f  2022-01-06 chisato c3_ex4追加
+* e4ca57f  2022-01-06 chisato c3_ex3追加
+* f815f7a  2022-01-06 chisato c3_10追加 if文のネスト
+* 18feecc  2022-01-06 chisato c3_9追加 多分岐するif文elif
+* 6c78654  2021-12-28 chisato c3_ifex追加 if練習問題
+* c0faefa  2021-12-28 chisato c3_col3追加 範囲指定の条件式 pythonは変数の挟み込みができる
+* 31ed905  2021-12-28 chisato c3_col2追加 論理演算not
+* 0eba9d5  2021-12-28 chisato c3_7追加 真偽値(True,False) 条件式の評価結果を確認する
+* 5035f1a  2021-12-28 chisato c3_6追加 in演算子を利用したディクショナリのキーのチェック方法
+* 50961e9  2021-12-28 chisato c3_4追加 in演算子の使い方
+* ce77d64  2021-12-28 chisato c3_2追加 if文基礎
+* c37ff34  2021-12-28 chisato c3_col追加 パイソンの改行について
+* 2a6b75e  2021-12-27 chisato c2_ex2追加 練習問題２
+* 7cfdd9d  2021-12-27 chisato c2_28追加 ４つの集合演算
+* 85cfe65  2021-12-27 chisato c2_27追加 セットの&演算
+* ad2530b  2021-12-27 chisato c2_26追加 ２次元リストの例
+* 008b9e7  2021-12-27 chisato c2_25追加 dictionaryの中にsetをネスト
+* 1a00a22  2021-12-27 chisato c2_24追加 dictionaryの中にictionaryをネスト
+* a32d203  2021-12-27 chisato c2_23追加 コレクションの相互変換
+* 46793db  2021-12-27 chisato c2_22追加 セットの利用
+* 2f2e442  2021-12-27 chisato c2_21追加 要素数が1つのタプルの追加 タプル関数を使用した追加方法
+* 0b51f40  2021-12-27 chisato c2_17追加 タプルは要素の変更ができないことを確認
+* 1a31322  2021-12-27 chisato c2_16col追加 ディクショナリのvalueの合計の求め方
+* 323b200  2021-12-27 chisato c2_16追加 ディクショナリ要素の削除
+* 32abe13  2021-12-27 chisato c2_15追加 ディクショナリ要素の追加と変更
+* ffdffe5  2021-12-27 chisato c2_14追加 ディクショナリの参照
+* 9bc1869  2021-12-27 chisato C2_13.java追加 JavaでHashMapの復習
+* 38df659  2021-12-27 chisato c2_13追加 ディクショナリとは
+* 126e9e0  2021-12-27 chisato rand.py追加
+* 989e85d  2021-12-24 chisato c2_11追加 リスト操作
+* c2404c1  2021-12-24 chisato c2_2追加 リストの基本
+* d34e67f  2021-12-24 chisato c1_22追加 format関数で文字列に数値を埋め込む print('{}を含む文字列'.format(埋め込む値)) print(f'{埋め込む値}を含む文字列')
+* 8d58ecb  2021-12-24 chisato c1_18追加 データ型の変換
+* 9049907  2021-12-24 chisato c1_17追加 格納されている値のデータ型を調べる
+* 1277258  2021-12-23 chisato c1_9 変数の再代入について Pythonの予約語について
+* 7a9b0b1  2021-12-23 chisato c1_8追加
+* b5d0792  2021-12-23 chisato c1_7追加
+* 4dbc40c  2021-12-23 chisato c1_5追加
+* 475e9df  2021-12-23 chisato c1_4追加
+* 7e0e0d7  2021-12-23 chisato c1_3追加
+* 4c60de5  2021-12-23 chisato c1_2変更、その他
+* 9c2bf9b  2021-12-23 chisato c1_2.py追加
+* 9e9574b  2021-12-23 chisato c1_1追加
+* fcad9e3  2021-12-23 chisato code1_1作成
